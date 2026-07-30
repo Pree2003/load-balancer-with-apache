@@ -69,6 +69,8 @@ CONFIGURING LOAD BALANCING
 
 <img width="554" height="407" alt="image" src="https://github.com/user-attachments/assets/bc3bebb7-c3cd-44e6-afbe-57062b372cc3" />
 
+<img width="410" height="43" alt="image" src="https://github.com/user-attachments/assets/8e8ce291-410b-4d72-9ea7-6578217458e6" />
 
+I used the command sudo systemctl status apache2
 
 
