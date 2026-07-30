@@ -53,3 +53,9 @@ sudo a2enmod rewrite
 and sudo a2enmod headers
 sudo a2enmod lb_method_bytraffic
 
+RESTARTING APACHE2
+
+<img width="413" height="40" alt="image" src="https://github.com/user-attachments/assets/797d5d8c-eb11-4431-b2af-782a5ee14955" />
+
+I used sudo systemctl restart apache2 to restart apache2 services
+
