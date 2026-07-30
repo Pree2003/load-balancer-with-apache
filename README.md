@@ -28,6 +28,9 @@ I logged into my have project-8-apache-lb server
 
 I edited inbound rules and opened port 80 on my project-8-apache-lb server instance
 
+INSTALLING APACHE
 
- 
+<img width="554" height="400" alt="image" src="https://github.com/user-attachments/assets/66e5f81e-a8d3-4657-a648-8dbf3490b816" />
+
+ I used the commando sudo apt update to update the packages offered by ubuntu server
  
