@@ -39,3 +39,17 @@ INSTALLING APACHE
 <img width="554" height="326" alt="image" src="https://github.com/user-attachments/assets/d5b30b75-38e8-466d-9ee0-fd22da632547" />
 
 <img width="553" height="253" alt="image" src="https://github.com/user-attachments/assets/a1ad14b3-9a06-443a-82f7-47cb4a10ce48" />
+
+ENABLING MODULES
+
+<img width="445" height="568" alt="image" src="https://github.com/user-attachments/assets/5117263d-b079-427e-a3af-d96dfcc2f2d4" />
+
+I enabled modules using the following commands:
+
+sudo a2enmod rewrite
+sudo a2enmod proxy
+sudo a2enmod proxy_balancer
+sudo a2enmod proxy_http
+sudo a2enmod headers
+sudo a2enmod lb_method_bytraffic
+
