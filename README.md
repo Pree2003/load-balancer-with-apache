@@ -34,3 +34,8 @@ INSTALLING APACHE
 
  I used the commando sudo apt update to update the packages offered by ubuntu server
  
+<img width="554" height="326" alt="image" src="https://github.com/user-attachments/assets/a3067296-a873-411a-b48d-ef7c3cf46ca7" />
+
+<img width="554" height="326" alt="image" src="https://github.com/user-attachments/assets/d5b30b75-38e8-466d-9ee0-fd22da632547" />
+
+<img width="553" height="253" alt="image" src="https://github.com/user-attachments/assets/a1ad14b3-9a06-443a-82f7-47cb4a10ce48" />
