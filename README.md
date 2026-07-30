@@ -12,5 +12,18 @@ Built a scalable web architecture on AWS deploying Apache as a Layer 7 Load Bala
 
  All 4 instances are running 
 
+<img width="554" height="164" alt="image" src="https://github.com/user-attachments/assets/c4f9e982-b80f-4c1c-b9f3-c905be5685f5" />
+
+I had to stop 1 server so I can add have project-8-apache-lb as another instance because of the vpu limit.
+
+<img width="554" height="58" alt="image" src="https://github.com/user-attachments/assets/78aeaa22-f840-46cf-b9fe-b8533fe3955a" />
+
+Created another instance called  have project-8-apache-lb
+
+<img width="554" height="475" alt="image" src="https://github.com/user-attachments/assets/acb997cb-7645-4124-99b6-4041e7f1977f" />
+
+I logged into my have project-8-apache-lb server 
+
+
  
  
