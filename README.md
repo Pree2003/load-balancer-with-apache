@@ -24,6 +24,10 @@ Created another instance called  have project-8-apache-lb
 
 I logged into my have project-8-apache-lb server 
 
+<img width="553" height="230" alt="image" src="https://github.com/user-attachments/assets/ada985b1-1ce9-4b32-9763-3486b1ef072a" />
+
+I edited inbound rules and opened port 80 on my project-8-apache-lb server instance
+
 
  
  
