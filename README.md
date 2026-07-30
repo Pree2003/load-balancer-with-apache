@@ -59,3 +59,9 @@ RESTARTING APACHE2
 
 I used sudo systemctl restart apache2 to restart apache2 services
 
+MAKING SURE APACHE2 IS UP AND RUNNING
+
+<img width="554" height="245" alt="image" src="https://github.com/user-attachments/assets/1c2a330c-da4b-4aed-aa72-17f937f1e7cb" />
+
+I used the command sudo systemctl status apache2
+
