@@ -47,9 +47,9 @@ ENABLING MODULES
 I enabled modules using the following commands:
 
 sudo a2enmod rewrite
-sudo a2enmod proxy
-sudo a2enmod proxy_balancer
-sudo a2enmod proxy_http
-sudo a2enmod headers
+,sudo a2enmod proxy
+,sudo a2enmod proxy_balancer
+,sudo a2enmod proxy_http
+and sudo a2enmod headers
 sudo a2enmod lb_method_bytraffic
 
