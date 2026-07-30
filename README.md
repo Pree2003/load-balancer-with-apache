@@ -65,3 +65,10 @@ MAKING SURE APACHE2 IS UP AND RUNNING
 
 I used the command sudo systemctl status apache2
 
+CONFIGURING LOAD BALANCING
+
+<img width="554" height="407" alt="image" src="https://github.com/user-attachments/assets/bc3bebb7-c3cd-44e6-afbe-57062b372cc3" />
+
+
+
+
