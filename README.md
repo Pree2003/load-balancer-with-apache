@@ -90,6 +90,23 @@ After that I ran sudo apache2ctl configtest to test the syntax and it finally re
 
 I finally opened public address of my load balancer then It finally wrote Hello from Web Server 1 to show that it is finally working. 
 
+<img width="502" height="298" alt="image" src="https://github.com/user-attachments/assets/131cbd49-3ec6-4094-8507-8d837be8a17a" />
+
+<img width="554" height="429" alt="image" src="https://github.com/user-attachments/assets/8c70b964-e9c4-49ed-bc88-5d8451b72c2a" />
+
+<img width="554" height="436" alt="image" src="https://github.com/user-attachments/assets/49f6fffb-b0fe-486c-bd91-8b6a6e181c91" />
+
+Load Balancer routed traffic only to Web Server 1; Web Server 2 failed with 403 Forbidden.SELinux blocked Apache on Web Server 2, and lbmethod=bytraffic cached initial backend failures.SELinux modules via audit2allow, switched load balancing to lbmethod=byrequests, and enabled lbmethod_byrequests. Traffic now balances 50/50.
+
+<img width="554" height="107" alt="image" src="https://github.com/user-attachments/assets/292c816d-2ba6-4463-9a24-bea50df0bdab" />
+
+<img width="553" height="104" alt="image" src="https://github.com/user-attachments/assets/125be222-7f3d-4a1b-be57-f95c938b0d9a" />
+
+
+
+
+
+
 
 
 
