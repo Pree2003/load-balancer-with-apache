@@ -14,11 +14,11 @@ Built a scalable web architecture on AWS deploying Apache as a Layer 7 Load Bala
 
 <img width="554" height="164" alt="image" src="https://github.com/user-attachments/assets/c4f9e982-b80f-4c1c-b9f3-c905be5685f5" />
 
-I had to stop 1 server so I can add have project-8-apache-lb as another instance because of the vpu limit.
+Since the load balancer depends on the web servers, NFS, and MySQL database, I had to bring those instances back up first so the entire stack could communicate properly
 
 <img width="554" height="58" alt="image" src="https://github.com/user-attachments/assets/78aeaa22-f840-46cf-b9fe-b8533fe3955a" />
 
-Created another instance called  have project-8-apache-lb
+Launched the project-8-apache-lb instance to handle load balancing across the backend web servers.
 
 <img width="554" height="475" alt="image" src="https://github.com/user-attachments/assets/acb997cb-7645-4124-99b6-4041e7f1977f" />
 
@@ -26,7 +26,8 @@ I logged into my have project-8-apache-lb server
 
 <img width="553" height="230" alt="image" src="https://github.com/user-attachments/assets/ada985b1-1ce9-4b32-9763-3486b1ef072a" />
 
-I edited inbound rules and opened port 80 on my project-8-apache-lb server instance
+I edited inbound rules and opened port 80 on the Load Balancer’s security group because it grants public internet access to the web entry point (0.0.0.0/0). This enables Apache to receive external client requests while keeping backend web servers securely isolated within the private network, routing traffic internally and preventing direct public access to individual web nodes.
+
 
 INSTALLING APACHE
 
