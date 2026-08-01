@@ -107,11 +107,13 @@ I ran sudo tail -f /var/log/httpd/access_log on both Web Server 1 and Web Server
 
 <img width="398" height="379" alt="image" src="https://github.com/user-attachments/assets/5d223ac7-c3fa-47de-9132-fff6a56e6c7c" />
 
+
 <img width="432" height="205" alt="image" src="https://github.com/user-attachments/assets/25fcf994-9cd3-47a8-8cfc-7bda0012a5c5" />
+
 
 <img width="379" height="296" alt="image" src="https://github.com/user-attachments/assets/050697e1-cbeb-4432-91d3-4247b9fab52d" />
 
-
+After editing the /etc/hosts file with sudo vi to create local DNS aliases, running curl -I http://Web1 and curl -I http://Web2 verified that the Load Balancer successfully resolved the domain names to the backend web servers, returning HTTP/1.1 200 OK status headers. Finally, sudo nano /etc/apache2/sites-available/000-default.conf opens the Apache virtual host file to update the BalancerMember directives with these new names.
 
 
 
