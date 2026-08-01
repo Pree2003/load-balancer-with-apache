@@ -74,4 +74,22 @@ CONFIGURING LOAD BALANCING
 
 I used the command sudo systemctl status apache2
 
+<img width="553" height="117" alt="image" src="https://github.com/user-attachments/assets/8c7c37fb-db4e-40b2-97d0-a08345e81828" />
+
+I ran configtest and ran the system but it showed me errors 
+
+<img width="554" height="251" alt="image" src="https://github.com/user-attachments/assets/479c11ee-411b-497a-b80f-c735036d85b8" />
+
+My next step was to run  sudo bash -c 'cat << "EOF" > /etc/apache2/sites-available/000-default.conf to overwrite the file. 
+
+<img width="554" height="430" alt="image" src="https://github.com/user-attachments/assets/1ee0b394-f32a-47f5-8d15-bb5699107622" />
+
+After that I ran sudo apache2ctl configtest to test the syntax and it finally returned Syntax OK the I finally restarted apache system then finally checked if it the system is running then it showed it is running and active.
+
+<img width="426" height="278" alt="image" src="https://github.com/user-attachments/assets/687df8d9-6111-4d51-b3e5-f9844eb4fa22" />
+
+I finally opened public address of my load balancer then It finally wrote Hello from Web Server 1 to show that it is finally working. 
+
+
+
 
