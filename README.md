@@ -105,6 +105,13 @@ Load Balancer routed traffic only to Web Server 1; Web Server 2 failed with 403 
 I ran sudo tail -f /var/log/httpd/access_log on both Web Server 1 and Web Server 2 to monitor live traffic streams and verify that the Apache load balancer is successfully distributing requests across both nodes.
 
 
+<img width="398" height="379" alt="image" src="https://github.com/user-attachments/assets/5d223ac7-c3fa-47de-9132-fff6a56e6c7c" />
+
+<img width="432" height="205" alt="image" src="https://github.com/user-attachments/assets/25fcf994-9cd3-47a8-8cfc-7bda0012a5c5" />
+
+<img width="379" height="296" alt="image" src="https://github.com/user-attachments/assets/050697e1-cbeb-4432-91d3-4247b9fab52d" />
+
+
 
 
 
